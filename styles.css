@@ -1,0 +1,152 @@
+html,body{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("images/back3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+*{
+	/*font-family: Berlin Sans 
+	FB;*/
+	margin: 0;
+	padding: 0;
+}
+.features{
+	
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 3rem;
+	
+}
+#navbarHeader{
+	font-weight: bold;
+	font-size: 1rem;
+	
+}
+
+
+
+span{
+	color: #cc8899;
+}
+.content{
+	margin-top: 17vw;
+	margin-bottom: 35vw;
+}
+.text-center {
+	color: black;
+	font-weight: bold;
+	
+}
+h1{
+	font-size: 5vw;
+	padding-top: 3rem;
+	
+}
+h3{
+	font-size: 2.5rem;
+	font-weight: bolder;
+}
+p{
+	font-size: 22px;
+	text-align: center;
+}
+.parallex{
+	height: 60vh;
+	width: 100vw;
+	background-image: url("images/parallex2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+	align-items: center;
+	display: flex;
+	background-position: center;
+}
+input[type="text"]{
+	width: 25vw;
+}
+textarea{
+	width: 51.5vw;
+}
+.btn{
+	float: right;
+	margin-right: 2rem;
+	width: 7rem;
+}
+.parallex2{
+	height: 80vh;
+	width: 100vw;
+	background-image: url("images/nature.jpg");
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+	align-items: center;
+	display: flex;
+	background-position: center;
+	color: black;
+}
+.inside-parallex{
+	height: 49vh;
+	width: 40vw;
+	
+}
+.btn1{
+	float: left;
+	background-color: transparent;
+	color: #fff;
+}
+
+.btn2{
+	float: right;
+	background-color: transparent;
+	color: #fff;
+}
+.objectives h1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+   padding-top: 5rem;	
+  
+	
+}
+.objectives img{
+	position: relative;
+	 align-items: center;
+	
+}
+.footer{
+	
+
+
+	background-image: url("images/footer.png");
+	/*background-position: center;*/
+	height: 100vh;
+	background-size: cover;
+	width: 100vw;
+	position: absolute;
+}
+.rights{
+	position: absolute;
+	bottom: 13px;
+	color: white;
+	font-weight: bold;
+}
+@media (max-width: 780px){
+	.features{
+		padding-top: 9rem;
+	}
+	.content{
+		padding-top: 3rem;
+	}
+	.footer{
+		
+	}
+	
+}
